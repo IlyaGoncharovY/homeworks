@@ -14,7 +14,7 @@ function Message(props: MessagePropsType) {
                  className={s.avatar}
                  alt={"image"}/>
 
-            <div className={s.angle}/>
+           {/* <div className={s.angle}/>*/}
 
             <div className={s.content}>
                 <div className={s.name}>
