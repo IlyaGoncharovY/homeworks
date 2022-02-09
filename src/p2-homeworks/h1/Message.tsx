@@ -10,6 +10,7 @@ type MessagePropsType = {
 function Message(props: MessagePropsType) {
     return (
         <div className={s.message}>
+            {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
             <img src={props.avatar}
                  className={s.avatar}
                  alt={"image"}/>
@@ -26,6 +27,6 @@ function Message(props: MessagePropsType) {
             </div>
         </div>
     )
-};
+}
 
 export default Message

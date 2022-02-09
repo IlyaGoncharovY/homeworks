@@ -12,6 +12,7 @@ function AlternativeMessage(props: AlternativeMessagePropsType) {
     return (
         <div className={s.message}>
 
+            {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
             <img src={props.avatar}
                  className={s.avatar}
                  alt={"image"}/>
