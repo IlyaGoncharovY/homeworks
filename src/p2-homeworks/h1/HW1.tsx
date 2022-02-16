@@ -5,15 +5,15 @@ import AlternativeMessage from "./AlternativeMessage";
 const messageData = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
     name: 'Ms. Smith',
-    message: 'Hello!',
+    message: 'Hello mr. Smith',
     time: '22:00',
 }
 
-const messageDataAlternative = {
-    avatar: 'http://st.gde-fon.com/wallpapers_original/621485_minenyi_studiya-piksar_multgeroi_7332x8299_www.Gde-Fon.com.jpg',
-    name: 'Mr. Smith',
-    message: 'Hello!!',
-    time: '22:01',
+const alternativeMessageData ={
+    avatar: "https://avatars.mds.yandex.net/i?id=d13209a8b36b06bba1ef120d1706d2fc-5883964-images-thumbs&n=13",
+    name: "Mr. Smith",
+    message: "Hello ms. Smith",
+    time: "22:01"
 }
 
 function HW1() {
@@ -22,7 +22,7 @@ function HW1() {
             <hr/>
             homeworks 1
 
-            should work (должно работать)
+            {/*should work (должно работать)*/}
 
             <Message
                 avatar={messageData.avatar}
@@ -34,10 +34,10 @@ function HW1() {
             <hr/>
             {/*для личного творчества, могу проверить*/}
             <AlternativeMessage
-                avatar={messageDataAlternative.avatar}
-                name={messageDataAlternative.name}
-                message={messageDataAlternative.message}
-                time={messageDataAlternative.time}
+                avatar={alternativeMessageData.avatar}
+                name={alternativeMessageData.name}
+                message={alternativeMessageData.message}
+                time={alternativeMessageData.time}
             />
             <hr/>
         </div>
