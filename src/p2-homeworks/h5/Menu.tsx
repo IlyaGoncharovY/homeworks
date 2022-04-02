@@ -29,6 +29,7 @@ const Menu = () => {
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={PATH.JUNIOR} element={<Junior/>}/>
                 <Route path={PATH.JUNIORPLUS} element={<JuniorPlus/>}/>
+                <Route path={PATH.JUNIORPLUS} element={<JuniorPlus/>}/>
 
                 {/*у этого роута нет пути, он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
                 {/*<Route render={() => <Error404/>}/>*/}
