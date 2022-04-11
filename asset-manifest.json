@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/homeworks/static/css/main.80081892.css",
-    "main.js": "/homeworks/static/js/main.f1b1b610.js",
-    "index.html": "/homeworks/index.html",
-    "main.80081892.css.map": "/homeworks/static/css/main.80081892.css.map",
-    "main.f1b1b610.js.map": "/homeworks/static/js/main.f1b1b610.js.map"
+    "main.css": "/React-HW/static/css/main.80081892.css",
+    "main.js": "/React-HW/static/js/main.f1b1b610.js",
+    "index.html": "/React-HW/index.html",
+    "main.80081892.css.map": "/React-HW/static/css/main.80081892.css.map",
+    "main.f1b1b610.js.map": "/React-HW/static/js/main.f1b1b610.js.map"
   },
   "entrypoints": [
     "static/css/main.80081892.css",
