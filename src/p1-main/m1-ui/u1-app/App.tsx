@@ -16,7 +16,6 @@ function App() {
             <HW3/>
             <HW4/>*/}
             <HW5/>
-            <HW6/>
 
         </div>
     )
