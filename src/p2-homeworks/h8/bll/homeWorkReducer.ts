@@ -7,9 +7,9 @@ export const homeWorkReducer = (state: UserType[], action: generalType):UserType
         case 'sort': {
             // need to fix
             const peopleState = [...state].sort((a,b)=> {
-                if (a.name > b.name) {
+                if (a.age > b.age) {
                     return 1
-                } else if (a.name < b.name){
+                } else if (a.age < b.age){
                     return -1
                 } else return 0
             })
