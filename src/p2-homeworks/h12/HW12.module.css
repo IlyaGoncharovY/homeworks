@@ -1,0 +1,23 @@
+.dark {
+    background-color: #777777;
+}
+
+.dark-text {
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.red-text {
+    color: yellow;
+}
+
+.some {
+    background-color: burlywood;
+}
+
+.some-text {
+    color: cornflowerblue;
+}
